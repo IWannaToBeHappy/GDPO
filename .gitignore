@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.env
+
+# VS Code
+.vscode/
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter/Notebooks
+.ipynb_checkpoints/
+
+# Data/cache (adjust if needed)
+*.tmp
+cache/

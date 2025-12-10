@@ -1,0 +1,375 @@
+{
+    "name": "phi-4-mini-instruct@general_qa",
+    "dataset_name": "general_qa",
+    "dataset_pretty_name": "General-QA",
+    "dataset_description": "A general question answering dataset for custom evaluation. For detailed instructions on how to use this benchmark, please refer to the [User Guide](https://evalscope.readthedocs.io/zh-cn/latest/advanced_guides/custom_dataset/llm.html#qa).",
+    "model_name": "phi-4-mini-instruct",
+    "score": 0.0491,
+    "metrics": [
+        {
+            "name": "mean_bleu-1",
+            "num": 2000,
+            "score": 0.0491,
+            "macro_score": 0.0491,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 2000,
+                    "score": 0.0491,
+                    "macro_score": 0.0491,
+                    "subsets": [
+                        {
+                            "name": "ccsd_c_functions_all_data",
+                            "score": 0.0282,
+                            "num": 1000
+                        },
+                        {
+                            "name": "tl_codesum_test",
+                            "score": 0.07,
+                            "num": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_bleu-2",
+            "num": 2000,
+            "score": 0.0111,
+            "macro_score": 0.0111,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 2000,
+                    "score": 0.0111,
+                    "macro_score": 0.0111,
+                    "subsets": [
+                        {
+                            "name": "ccsd_c_functions_all_data",
+                            "score": 0.0063,
+                            "num": 1000
+                        },
+                        {
+                            "name": "tl_codesum_test",
+                            "score": 0.0159,
+                            "num": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_bleu-3",
+            "num": 2000,
+            "score": 0.0031,
+            "macro_score": 0.0031,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 2000,
+                    "score": 0.0031,
+                    "macro_score": 0.0031,
+                    "subsets": [
+                        {
+                            "name": "ccsd_c_functions_all_data",
+                            "score": 0.0017,
+                            "num": 1000
+                        },
+                        {
+                            "name": "tl_codesum_test",
+                            "score": 0.0045,
+                            "num": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_bleu-4",
+            "num": 2000,
+            "score": 0.0011,
+            "macro_score": 0.0011,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 2000,
+                    "score": 0.0011,
+                    "macro_score": 0.0011,
+                    "subsets": [
+                        {
+                            "name": "ccsd_c_functions_all_data",
+                            "score": 0.0005,
+                            "num": 1000
+                        },
+                        {
+                            "name": "tl_codesum_test",
+                            "score": 0.0016,
+                            "num": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_Rouge-1-R",
+            "num": 2000,
+            "score": 0.4071,
+            "macro_score": 0.4071,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 2000,
+                    "score": 0.4071,
+                    "macro_score": 0.4071,
+                    "subsets": [
+                        {
+                            "name": "ccsd_c_functions_all_data",
+                            "score": 0.4032,
+                            "num": 1000
+                        },
+                        {
+                            "name": "tl_codesum_test",
+                            "score": 0.411,
+                            "num": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_Rouge-1-P",
+            "num": 2000,
+            "score": 0.0678,
+            "macro_score": 0.0678,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 2000,
+                    "score": 0.0678,
+                    "macro_score": 0.0678,
+                    "subsets": [
+                        {
+                            "name": "ccsd_c_functions_all_data",
+                            "score": 0.0514,
+                            "num": 1000
+                        },
+                        {
+                            "name": "tl_codesum_test",
+                            "score": 0.0841,
+                            "num": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_Rouge-1-F",
+            "num": 2000,
+            "score": 0.1088,
+            "macro_score": 0.1088,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 2000,
+                    "score": 0.1088,
+                    "macro_score": 0.1089,
+                    "subsets": [
+                        {
+                            "name": "ccsd_c_functions_all_data",
+                            "score": 0.0878,
+                            "num": 1000
+                        },
+                        {
+                            "name": "tl_codesum_test",
+                            "score": 0.1299,
+                            "num": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_Rouge-2-R",
+            "num": 2000,
+            "score": 0.1123,
+            "macro_score": 0.1123,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 2000,
+                    "score": 0.1123,
+                    "macro_score": 0.1123,
+                    "subsets": [
+                        {
+                            "name": "ccsd_c_functions_all_data",
+                            "score": 0.1038,
+                            "num": 1000
+                        },
+                        {
+                            "name": "tl_codesum_test",
+                            "score": 0.1208,
+                            "num": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_Rouge-2-P",
+            "num": 2000,
+            "score": 0.0128,
+            "macro_score": 0.0128,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 2000,
+                    "score": 0.0128,
+                    "macro_score": 0.0128,
+                    "subsets": [
+                        {
+                            "name": "ccsd_c_functions_all_data",
+                            "score": 0.0086,
+                            "num": 1000
+                        },
+                        {
+                            "name": "tl_codesum_test",
+                            "score": 0.017,
+                            "num": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_Rouge-2-F",
+            "num": 2000,
+            "score": 0.0214,
+            "macro_score": 0.0214,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 2000,
+                    "score": 0.0214,
+                    "macro_score": 0.0214,
+                    "subsets": [
+                        {
+                            "name": "ccsd_c_functions_all_data",
+                            "score": 0.0152,
+                            "num": 1000
+                        },
+                        {
+                            "name": "tl_codesum_test",
+                            "score": 0.0276,
+                            "num": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_Rouge-L-R",
+            "num": 2000,
+            "score": 0.369,
+            "macro_score": 0.369,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 2000,
+                    "score": 0.369,
+                    "macro_score": 0.369,
+                    "subsets": [
+                        {
+                            "name": "ccsd_c_functions_all_data",
+                            "score": 0.3695,
+                            "num": 1000
+                        },
+                        {
+                            "name": "tl_codesum_test",
+                            "score": 0.3686,
+                            "num": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_Rouge-L-P",
+            "num": 2000,
+            "score": 0.0404,
+            "macro_score": 0.0404,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 2000,
+                    "score": 0.0404,
+                    "macro_score": 0.0403,
+                    "subsets": [
+                        {
+                            "name": "ccsd_c_functions_all_data",
+                            "score": 0.0281,
+                            "num": 1000
+                        },
+                        {
+                            "name": "tl_codesum_test",
+                            "score": 0.0526,
+                            "num": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mean_Rouge-L-F",
+            "num": 2000,
+            "score": 0.0669,
+            "macro_score": 0.0669,
+            "categories": [
+                {
+                    "name": [
+                        "default"
+                    ],
+                    "num": 2000,
+                    "score": 0.0669,
+                    "macro_score": 0.0669,
+                    "subsets": [
+                        {
+                            "name": "ccsd_c_functions_all_data",
+                            "score": 0.0498,
+                            "num": 1000
+                        },
+                        {
+                            "name": "tl_codesum_test",
+                            "score": 0.0841,
+                            "num": 1000
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "analysis": "N/A"
+}

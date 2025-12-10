@@ -1,0 +1,66 @@
+analysis_report: false
+api_url: http://127.0.0.1:8000/v1
+chat_template: null
+dataset_args:
+  general_qa:
+    aggregation: mean
+    dataset_id: /workspace/dataset/eval
+    default_subset: default
+    description: A general question answering dataset for custom evaluation. For detailed
+      instructions on how to use this benchmark, please refer to the [User Guide](https://evalscope.readthedocs.io/zh-cn/latest/advanced_guides/custom_dataset/llm.html#qa).
+    eval_split: test
+    extra_params: {}
+    few_shot_num: 0
+    few_shot_prompt_template: null
+    few_shot_random: false
+    filters: null
+    metric_list:
+    - BLEU
+    - Rouge
+    name: general_qa
+    output_types:
+    - generation
+    pretty_name: General-QA
+    prompt_template: '请回答问题
+
+      {question}'
+    query_template: null
+    shuffle: false
+    shuffle_choices: false
+    subset_list:
+    - ccsd_c_functions_all_data
+    - tl_codesum_test
+    system_prompt: null
+    tags:
+    - QA
+    - Custom
+    train_split: null
+dataset_dir: /mnt/workspace/.cache/modelscope/hub/datasets
+dataset_hub: modelscope
+datasets:
+- general_qa
+debug: false
+eval_backend: Native
+eval_batch_size: 16
+eval_config: null
+eval_type: openai_api
+generation_config:
+  batch_size: 16
+  max_tokens: 2048
+  temperature: 0.0
+ignore_errors: false
+judge_model_args: {}
+judge_strategy: auto
+judge_worker_num: 1
+limit: 1000
+model: hunyuan-1_8b-instruct
+model_args: {}
+model_id: hunyuan-1_8b-instruct
+model_task: text_generation
+repeats: 1
+rerun_review: false
+seed: 42
+stream: null
+timeout: null
+use_cache: null
+work_dir: /workspace/eval/baseline/eval_output/native/20250911_190551
